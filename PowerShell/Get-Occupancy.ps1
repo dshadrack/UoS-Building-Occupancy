@@ -18,9 +18,6 @@ $Occupancy = $SiteContent.innerText
 #Get current date and time in a readable format
 $date = Get-Date -Format "MM/dd/yyyy HH:mm"
 
-#Load in CSV file to memory
-$CSVfile = Import-Csv $CSVPATH
-
 #Add newly returned data in a new line
 $newline = $date + "," + $Occupancy
 $newline | Add-Content -Path $CSVPATH
