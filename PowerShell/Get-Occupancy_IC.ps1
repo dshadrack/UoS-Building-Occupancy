@@ -9,7 +9,7 @@ If (Test-Path -Path $CSVPATH){
     Set-Content $CSVPATH -Value "DateTime,Occupancy"
 }
 
-#Try/Catch to stop writing if disconnected fromt the internet
+#Try/Catch to stop writing if disconnected from the internet
 try{
 
     #Read the HTML from the specified site and load this into memory
