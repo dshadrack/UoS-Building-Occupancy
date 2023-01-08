@@ -1,5 +1,5 @@
 ﻿#Define location for data to be saved
-$CSVPATH = "F:\TEMP\OccupancyDMD.csv"
+$CSVPATH = ""G:\My Drive\OccupancyData\DMD.csv""
 
 #Check if data file exists 
 If (Test-Path -Path $CSVPATH){
